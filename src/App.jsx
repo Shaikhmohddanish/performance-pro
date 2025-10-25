@@ -153,6 +153,7 @@ function Lightbox({ open, onClose, item }) {
 })();
 
 export default function App() {
+  console.log('App component rendering...');
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
   const [selected, setSelected] = useState(null);
 
